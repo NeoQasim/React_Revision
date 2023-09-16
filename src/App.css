@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding: 3rem 5rem;
+  background-color: skyblue;
+  width: 55vh;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.display h1 {
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.btns button {
+  padding: .5rem 1.4rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+}
