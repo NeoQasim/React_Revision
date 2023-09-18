@@ -1,6 +1,9 @@
 
 
-import Card from "./Card"
+// import Card from "./Card"
+
+// import Bgchanger from "./Bgchanger"
+import Probgchanger from "./Probgchanger"
 
 const App = () => {
   // const anobj = {
@@ -9,8 +12,9 @@ const App = () => {
   // }
   return (
     <>
-      <Card students="qasim"  btntext = "visit me 1"/>
-      <Card students="qasim khan" btntext = "visit me 2" />
+    <Probgchanger/>
+      {/* <Card students="qasim" btntext="visit me 1" /> */}
+       {/* <Card students="qasim khan" btntext="visit me 2" /> */}
     </>
   )
 }
