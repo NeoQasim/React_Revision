@@ -1,11 +1,16 @@
-// import  from 'react'
 
-import Counter from "./Counter"
+
+import Card from "./Card"
 
 const App = () => {
+  // const anobj = {
+  //   name: "qasim",
+  //   age: 21
+  // }
   return (
     <>
-      <Counter />
+      <Card students="qasim"  btntext = "visit me 1"/>
+      <Card students="qasim khan" btntext = "visit me 2" />
     </>
   )
 }
